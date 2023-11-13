@@ -1,0 +1,380 @@
+.men{
+    background-color: black;
+    position:fixed;
+    width: 100%;
+    height: 16%;
+    margin-top: -1%;
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+   background-color: black;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+.h{
+    position:fixed;
+    margin-left: 32%;
+    margin-top: 3%;
+    background-color: black;
+}
+.hom{
+    position:fixed;
+    margin-top: 4%;
+    margin-left: 36%;
+    background-color: black;
+}
+.contact{
+    position:fixed;
+    margin-top: 4%;
+    margin-left: 47%;
+    background-color: black;
+}
+.to{
+    position:fixed;
+    margin-top: 2%;
+    margin-left: 60%;
+}
+.rep{
+    position:fixed;
+    margin-top: 4%;
+    margin-left: 73%;
+    background-color: black;
+}
+.car{
+    position:fixed;
+    margin-top: 30px;
+    margin-left: 86%;
+    background-color: black;
+}
+.w{
+    position:fixed;
+    margin-top: 40px;
+    margin-left: 92%;
+    background-color: black;
+}
+#botton{
+    color: white;
+    padding: 10px 20px;
+    border-radius:  4px;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 rgb(3, 4, 54);
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#botton:hover{
+    box-shadow: inset 10px 0 0 0 rgb(3, 4, 54);
+    color: brown;
+}
+#masinfo{
+    color: black;
+    background-color: rgb(3, 136, 136);
+    padding: 10px 20px;
+    border-radius:  4px;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 rgb(3, 4, 54);
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#masinfo:hover{
+    box-shadow: inset 10px 0 0 0 rgb(3, 4, 54);
+    background-color:#BE1E30 ;
+}
+#imgh{
+    overflow: hidden;
+}
+#imh{
+    transition: 0.5s;
+    object-fit: cover;
+}
+#imh:hover{
+    transform: scale(1.2);
+}
+#zoom{
+    transition: 0.5s;
+    object-fit: cover;
+}
+#zoom:hover{
+    transform: scale(1.2);
+}
+.a{
+    font-size: 3rem;
+    color:  #FFFFFF;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translate(-40%, -40%);
+    border-radius:  4px;
+    text-decoration:solid;
+    text-shadow: 1px 1px wheat;
+    font-family: 'Archivo', sans-serif;
+    background: rgba(6, 12, 5, 0.4);
+}
+.texto{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: #010103;
+    font-family: 'Archivo', sans-serif;
+ }
+ .black P{
+    color: #FFFFFF;
+ }
+ .black h1{
+    color: #010103;
+ }
+#zoom{
+    transition: 0.5s;
+    object-fit: cover;
+}
+#zoom:hover{
+    transform: scale(1.2);
+}
+ #masinfo{
+    color: black;
+    background-color: rgb(3, 136, 136);
+    padding: 10px 20px;
+    border-radius:  4px;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 rgb(3, 4, 54);
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#masinfo:hover{
+    box-shadow: inset 10px 0 0 0 rgb(3, 4, 54);
+    background-color:#BE1E30 ;
+}
+.red{
+    background-color: #BE1E30;
+}
+h2{
+    color: #FFFFFF;
+    font-family: 'Archivo', sans-serif;
+}
+.contw{
+    background-color: #2e6329;
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 40%;
+    bottom: 20px;
+    right: 10px;
+    padding: 10px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.contw:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.botonw{
+    width: 50px;
+    transition: ease 1s;
+}
+#bottonh{
+    color: white;
+    padding: 0.625em 1.25em;
+    border-radius:  0.25em;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#bottonh:hover{
+    color: brown;
+}
+.video:hover{
+    background-color: #01010359;
+}
+.infor{
+    padding: 10px 20px;
+    border-radius:  4px;
+    background-color: #BE1E30;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link:hover{
+    color: #010103;
+}
+.contenedor{
+    width: 100%;
+}
+.contenedor figure{
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 0%;
+}
+.contenedor figure video{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 99%;
+    background-color: #01010359;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+}
+.contenedor figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor figure:hover > .capa button{
+    margin-top: 345px;
+    margin-bottom: 67px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 38px 28px;
+    font-size: 15px;
+}
+button:hover{
+    background-color: #ffffff7e;
+}
+.tec{
+    margin-left: -64%;
+}
+.resp{
+    margin-top: -11%;
+    margin-left: 7%;
+}
+.sast{
+    margin-top: -11%;
+    margin-left: 69%;
+}
+.brem{
+    margin-left: -64%;
+}
+.hus{
+    margin-top: -7%;
+}
+.kar{
+    margin-left: 58%;
+    margin-top: -6%;
+}
+.met{
+    margin-left: -64%;
+    margin-top: 5%;
+}
+.bosh{
+    margin-top: -7%;
+}
+.bta{
+    margin-left: 58%;
+    margin-top: -11%;
+}
+.gar{
+    margin-left: -64%;
+}
+.fis{
+    margin-top: -6%;
+}
+.bac{
+    margin-left: 58%;
+    margin-top: -8%;
+}
+@media screen and (max-width: 500px) { 
+
+    body{
+        padding: 373px 0px 0;
+    }
+    .men{
+        margin-top: -3%;
+        height: 0%;
+        width: 0%;
+    }
+    .menu{
+        margin-top: -76%;
+        margin-left: 0%;
+        width: 100%;
+        height: 25%;
+    }
+    .h{
+        margin-top: -70%;
+        margin-left: 45%;
+    }
+    .hom{
+        margin-top: -68%;
+        margin-left: 52%;
+    }
+    .contact{
+        margin-top: -68%;
+        margin-left: 69%;
+    }
+    .rep{
+        margin-left: 42%;
+        margin-top: -57%;
+    }
+    .to{
+        margin-left: 70%;
+        margin-top: -63%;
+    }
+    .car{
+        margin-left: 3%;
+        margin-top: -57%;
+    }
+    .w{
+        margin-left: 13%;
+        margin-top: -55%;
+    }
+    .a{
+        margin-top: -40%;
+    }
+   #imgh{
+    margin-top: -68%;
+    height: 50%;
+   }
+   .tec{
+    margin-left: 10%;
+    margin-top: -3%;
+   }
+   .resp{
+    margin-left: -1%;
+    margin-top: 2%;
+   }
+   .sast{
+    margin-left: 11%;
+    margin-top: -2%;
+   }
+   .brem{
+        margin-left: -3%;
+    }
+    .hus{
+        margin-top: 3%;
+        margin-left: -5%;
+    }
+    .kar{
+        margin-left: -2%;
+        margin-top: 1%;
+    }
+    .met{
+        margin-left: -5%;
+        margin-top: 1%;
+    }
+    .bosh{
+        margin-top: 1%;
+        margin-left: -11%;
+    }
+    .bta{
+        margin-left: 1%;
+        margin-top: -11%;
+    }
+    .gar{
+        margin-left: -3%;
+        margin-top: -7%;
+    }
+    .fis{
+        margin-top: 0%;
+        margin-left: 3%;
+    }
+    .bac{
+        margin-left: 3%;
+        margin-top: -2%;
+    }
+
+}
