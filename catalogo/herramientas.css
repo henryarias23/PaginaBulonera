@@ -248,3 +248,56 @@ html{
     font-family: 'Roboto', sans-serif;
     color: #BE1E30;
 }
+@media screen and (max-width: 500px) { 
+
+    body{
+        padding: 373px 0px 0;
+    }
+    .men{
+        margin-top: -5%;
+        height: 0%;
+        width: 0%;
+    }
+
+    .menu{
+        margin-top: -76%;
+        margin-left: 0%;
+        width: 100%;
+        height: 25%;
+    }
+    .h{
+        margin-top: -70%;
+        margin-left: 45%;
+    }
+    .hom{
+        margin-top: -68%;
+        margin-left: 52%;
+    }
+    .contact{
+        margin-top: -68%;
+        margin-left: 69%;
+    }
+    .rep{
+        margin-left: 42%;
+        margin-top: -57%;
+    }
+    .to{
+        margin-left: 70%;
+        margin-top: -63%;
+    }
+    .car{
+        margin-left: 1%;
+        margin-top: -57%;
+    }
+    .w{
+        margin-left: 12%;
+        margin-top: -56%;
+    }
+    .catalog{
+        margin-left: 21%;
+        margin-top: -85%;
+    }
+    .txt{
+        margin-top: -64%;
+    }
+}
